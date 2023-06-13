@@ -1,0 +1,85 @@
+.middleContainer {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.cardContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+
+.grey {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.cards {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boxes {
+    background-image: url('https://img.freepik.com/free-vector/flat-polygonal-background_23-2148919446.jpg');
+    width: 100%;
+
+
+}
+
+.green {
+    background-color: #22BF9E;
+    opacity: 0.7;
+}
+
+.orange {
+    background-color: #bd3807;
+    opacity: 0.8;
+}
+
+.cardBody {
+    color: white;
+    text-align: center;
+}
+
+.cardText {
+    width: 19rem;
+    font-size: 1.2rem;
+}
+
+.cardImages {
+    width: 50%;
+    height: 50%;
+
+}
+
+.imgWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    background-image: url('https://img.freepik.com/free-vector/flat-polygonal-background_23-2148919446.jpg');
+    width: 100%;
+}
+
+.cardImage{
+    width:80%;
+    height:75%;
+}
+
+.imgWrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.purple {
+    background-color: #8A5DCE;
+    opacity: 0.7;
+}

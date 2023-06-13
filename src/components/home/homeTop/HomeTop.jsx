@@ -1,5 +1,5 @@
 import styles from './HomeTop.module.css';
-import { Navbar } from '../Navbar/Navbar';
+import { Navbar } from '../../Navbar/Navbar';
 
 export function HomeTop() {
 
