@@ -1,13 +1,13 @@
-.main {
+/* .main { */
     /* background-image: url('/src/assets/background-image.jpg');
     background-repeat: no-repeat;
   background-size: cover; */
-}
+/* } */
 
 .landingPage {
     background-image: url('https://assets.splitwise.com/assets/core/facets.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
 }
