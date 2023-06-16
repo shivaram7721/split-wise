@@ -1,0 +1,123 @@
+.loginBackground {
+    background-image: url('https://assets.splitwise.com/assets/core/facets.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0px;
+  
+   width:99vw;
+   height:80vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+
+
+  
+  
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+} 
+
+.loginContent {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.loginForm {
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding:3rem;
+    width: 30vw;
+
+}
+
+
+
+.loginText {
+    margin-top: -2rem;
+    
+}
+
+
+/* .loginTitle {
+    font-size: 2rem;
+} */
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.loginInput {
+    padding: 0.7rem;
+    outline: none;
+}
+
+/* .label {
+    font-size: 1.3rem;
+} */
+
+.loginInput:focus {
+    border: 2px solid #1CC29F;
+    caret-color: #1CC29F;
+}
+
+/* input[type="text"] {
+    caret-color: #1CC29F;
+} */
+
+/* .loginBtn {
+    display: block;
+    width:100%;
+} */
+
+.btnStyle {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    
+}
+
+.login {
+    background-color: #18A582;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 3px 4px -1.5px rgb(62, 61, 61);
+}
+
+.loginBtn {
+    margin-top: 2rem;
+    
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+}
+
+.forgotPassword {
+    color: #18A582;
+    font-weight: bold;
+}
+
+.googleLogin {
+    border: transparent;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
