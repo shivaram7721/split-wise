@@ -51,6 +51,12 @@
     font-size: 1.2rem;
 }
 
+.cardTexts{
+    width: 24rem;
+    font-size: 1.2rem;
+
+}
+
 .cardImages {
     width: 50%;
     height: 50%;

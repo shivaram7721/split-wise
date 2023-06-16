@@ -72,8 +72,8 @@ function HomeMiddle() {
                 <div className={styles.cardContainer}>
                     <div className={`${styles.cards} ${styles.purple} `} >
                         <div className={styles.cardBody}>
-                            <h2 className={styles.cardTitle}>Organize expenses</h2>
-                            <p className={styles.cardText}>Split expenses with any group: trips, housemates, friends, and family.</p>
+                            <h2 className={styles.cardTitle}>Get even more with PRO</h2>
+                            <p className={styles.cardTexts} >Get even more organized with receipt scanning, charts and graphs, currency conversion, and more!</p>
                         </div>
                     </div>
                 </div>
