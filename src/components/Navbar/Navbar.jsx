@@ -7,7 +7,7 @@ export function Navbar() {
         <div className={styles.main}>
             <div className={styles.logoContainer}>
                 <img className={styles.logo} src='https://i.pinimg.com/originals/a7/63/5b/a7635b1254e8428b4cdc6f48cee9a459.png' alt='splitwise-logo'/>
-                <p className={styles.logoName}>Splitwise</p>
+                <span className={styles.logoName}>Splitwise</span>
             </div>
 
             <div className={styles.loginContainer}>
