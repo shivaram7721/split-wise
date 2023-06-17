@@ -73,19 +73,22 @@
 
 .svgImgPlane {
   width: 3.5vw;
-  fill: aqua;
+  transition: fill 1.5s ease;
 }
 
 .svgImgHome {
   width: 3vw;
+  transition: fill 1.5s ease;
 }
 
 .svgImgHeart {
   width: 3.5vw;
+  transition: fill 1.5s ease;
 }
 
 .svgImgAsterisk {
   width: 3.5vw;
+  transition: fill 1.5s ease;
 }
 
 .rightSvg {
@@ -115,7 +118,7 @@
 }
 
 .randomText {
-  transition: color 1.5 ease-in-out;
+  transition: color 1.5s ease;
   font-family: Montserrat;
 }
 

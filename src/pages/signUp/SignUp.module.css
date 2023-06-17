@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.signupContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    width: 15vw;
+    height: 32vh;
+    margin-right: 3rem;
+}
+
+.introduce {
+    font-size: 1rem;
+    color: #999;
+    font-weight: bold;
+    line-height: 1.3rem;
+    font-family: Lato;
+    letter-spacing: .1rem;
+}
+
+.nameLabel {
+    font-size: 1.7rem;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-weight: 300;
+    background-color: #ffffff;
+    color: #333333;
+    margin-bottom: .5rem;
+}
+
+.inp {
+    width: 24.5vw;
+    height: 7.5vh;
+    font-size: 2rem;
+    color: #333;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.inp:focus {
+    border: none;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+.signupBtn {
+    font-size: 1.5rem;
+    background: #ff652f;
+    color: white;
+    text-shadow: 0 -1px 0 #c83400;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: .8rem;
+    width: 10vw;
+    margin-top: 1rem;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.googleBtn {
+    color: #999;
+    background: #fff;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    border-radius: 5px;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.or {
+    font-family: Lato;
+    color: #999;
+    margin: 0 1rem 0 1.5rem;
+}
+
+.googleIcon {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding: .3rem;
+}
+
+.footText {
+    color: #0088cc;
+    text-decoration: none;
+    font-size: .9rem;
+    margin-top: 1.5rem;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.footText:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dropInput {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    transition: all 1s ease;
+}
+
+.emailLabel {
+    font-size: 1.3rem;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-weight: 300;
+    background-color: #ffffff;
+    color: #333333;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.passwordLabel {
+    font-size: 1.3rem;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-weight: 300;
+    background-color: #ffffff;
+    color: #333333;
+    margin-top: 1.7rem;
+    margin-bottom: .5rem;
+}
+
+.inpEmail {
+    width: 24.5vw;
+    height: 5.5vh;
+    font-size: 2rem;
+    color: #333;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.inpPassword {
+    width: 24.5vw;
+    height: 5.5vh;
+    font-size: 2rem;
+    color: #333;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.robot {
+    display: flex;
+    align-items: center;
+    border: 1px solid #cccccc;
+    width: 20vw;
+    height: 6vh;
+    gap: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.captcha {
+    width: 3vw;
+    height: 7vh;
+    padding-left: 5rem;
+}
