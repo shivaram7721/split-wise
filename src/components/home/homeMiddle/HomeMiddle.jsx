@@ -74,6 +74,7 @@ function HomeMiddle() {
                         <div className={styles.cardBody}>
                             <h2 className={styles.cardTitle}>Get even more with PRO</h2>
                             <p className={styles.cardTexts} >Get even more organized with receipt scanning, charts and graphs, currency conversion, and more!</p>
+                            <button className={styles.signUpBtn}>Sign up</button>
                         </div>
                     </div>
                 </div>

@@ -1,39 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
 .loginBackground {
     background-image: url('https://assets.splitwise.com/assets/core/facets.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 0px;
-  
-   width:99vw;
-   height:80vh;
    display: flex;
    justify-content: center;
-   align-items: center;
    
-
 }
 
+  
+  
 
-  
-  
 
 .loginContainer {
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #FFFFFF;
-    
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border-radius: 10px;
+    border-radius: 15px;
+   
 } 
+
+  
 
 .loginContent {
     display: flex;
-    
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 2.5rem;
+    /* border: 2px solid black; */
 }
-
 
 
 .loginForm {
@@ -41,50 +38,51 @@
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-    padding:3rem;
+    padding:4rem;
     width: 30vw;
+    /* border: 2px solid red; */
 
 }
 
 
 
 .loginText {
-    margin-top: -2rem;
+    margin-top: -4rem;
+    font-size: 2rem;
     
 }
 
+.loginTitle {
+    font-family: Lato;
 
-/* .loginTitle {
-    font-size: 2rem;
-} */
+}
+
 .formGroup {
     display: flex;
     flex-direction: column;
-    gap: 0.1rem;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
 }
 
 .loginInput {
-    padding: 0.7rem;
+    padding: 0.8rem;
     outline: none;
+    border: 1px solid rgb(230, 227, 227);
+    font-size: 1rem;
 }
 
-/* .label {
-    font-size: 1.3rem;
-} */
+.label {
+    font-family: Lato;
+    font-size: 1.1rem;
+    
+}
 
 .loginInput:focus {
     border: 2px solid #1CC29F;
     caret-color: #1CC29F;
 }
 
-/* input[type="text"] {
-    caret-color: #1CC29F;
-} */
 
-/* .loginBtn {
-    display: block;
-    width:100%;
-} */
 
 .btnStyle {
     width: 100%;
@@ -99,6 +97,7 @@
     color: white;
     font-weight: bold;
     box-shadow: 0 3px 4px -1.5px rgb(62, 61, 61);
+    font-size: 1rem;
 }
 
 .loginBtn {
@@ -120,4 +119,25 @@
     border: transparent;
     background-color: #FFFFFF;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    font-weight: bold;
+    font-size:1rem;
 }
+
+.error {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .errorMessage {
+    background-color: #CC4455;
+    width:88%;
+    color:white;
+    padding: 0.7rem;
+    border-radius: 2px ;
+    font-family: Lato;
+  }
+  
+  
