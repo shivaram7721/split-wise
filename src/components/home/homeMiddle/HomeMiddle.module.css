@@ -1,91 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
+
 .middleContainer {
     display: flex;
-    /* flex-direction: column; */
-}
-
-.cardContainer {
+    
+  }
+  
+  .cardContainer {
     display: flex;
     flex: 1;
     flex-direction: column;
-}
-
-
-.grey {
-    background-color: black;
-    opacity: 0.8;
-}
-
-.cards {
+  }
+  
+  .grey {
+    background-color: rgba(15, 15, 15, 0.8);
+    opacity: 1;
+  }
+  
+  .cards {
     display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-}
-
-.boxes {
+  }
+  
+  .boxes {
     background-image: url('https://img.freepik.com/free-vector/flat-polygonal-background_23-2148919446.jpg');
     width: 100%;
-
-
-}
-
-.green {
-    background-color: #22BF9E;
-    opacity: 0.7;
-}
-
-.orange {
-    background-color: #bd3807;
-    opacity: 0.8;
-}
-
-.cardBody {
+  }
+  
+  .green {
+    background-color: rgba(4, 172, 135, 0.7);
+    opacity: 1;
+  }
+  
+  .orange {
+    background-color: rgb(240, 69, 7);
+    opacity: 0.75;
+  }
+  
+  .cardBody {
     color: white;
     text-align: center;
-}
-
-.cardText {
+    margin:1rem;
+  }
+  
+  .cardText {
     width: 19rem;
     font-size: 1.2rem;
-}
-
-.cardTexts{
-    width: 24rem;
+    font-family: Lato;
+  }
+  
+  .cardTexts {
+    width: 25rem;
     font-size: 1.2rem;
-
-}
-
-.cardImages {
+    font-family: Lato;
+  }
+  
+  .cardImages {
     width: 50%;
     height: 50%;
-
-}
-
-.imgWrapper {
+    border: none;
+  }
+  
+  .imgWrapper {
     display: flex;
     justify-content: center;
-}
-
-.box {
+    border: none;
+  }
+  
+  .box {
     display: flex;
     background-image: url('https://img.freepik.com/free-vector/flat-polygonal-background_23-2148919446.jpg');
     width: 100%;
-}
-
-.cardImage{
-    width:80%;
-    height:75%;
-}
-
-.imgWrap {
+  }
+  
+  .cardImage {
+    width: 80%;
+    height: 75%;
+  }
+  
+  .imgWrap {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-}
+  }
+  
+  .purple {
+    background-color: rgba(110, 41, 213, 0.8);
+    opacity: 1;
+  }
 
-.purple {
-    background-color: #8A5DCE;
-    opacity: 0.7;
-}
+  .cardTitle {
+    font-family: Montserrat;
+  }
+  
+  .signUpBtn {
+    padding: 0.8rem 2.5rem;
+    border: 1px solid white; 
+    border-radius: 5px;
+    background-color: #6C4E9E;
+    color: white;
+    cursor: pointer;
+    font-size: larger;
+    
+  }
+
+  
