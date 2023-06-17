@@ -23,16 +23,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 36vw;
-  margin-left: 4.3rem;
+  width: 40vw;
+  margin-left: 6rem;
   /* text-align: left; */
   /* font-family: Montserrat; */
   /* margin-bottom: 1.5rem; */
 }
 
 .headText {
-  width: 30vw;
+  width: 35vw;
   font-size: 3rem;
+  margin-left: 2.4rem;
   line-height: 1.25;
   font-weight: 700;
   color: #373B3F;
@@ -42,9 +43,9 @@
 
 .leftParaText {
   text-align: left;
-  /* margin-top: 1.5rem; */
+  margin-left: 4.3rem;
   margin-bottom: 1.5rem;
-  width: 25vw;
+  width: 30vw;
 }
 
 .paraText {
