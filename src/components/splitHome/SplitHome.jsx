@@ -1,6 +1,6 @@
 import styles from './SplitHome.module.css';
 import Grid from '@mui/material/Grid';
-import { SplitHomeLeft } from './splitHomeLeft/splitHomeLeft';
+import {SplitHomeLeft} from './splitHomeLeft/SplitHomeLeft';
 
 export function SplitHome() {
 
