@@ -1,0 +1,16 @@
+.gridMain {
+    width: 100vw;
+    height: 100vw;
+}
+
+.gridLeft {
+    border: 1px solid;
+}
+
+.gridMiddle {
+    border: 1px solid;
+}
+
+.gridRight {
+    border: 1px solid;
+}

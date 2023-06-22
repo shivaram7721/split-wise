@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 2rem;
+}
+
+.container  {
+    display: flex;
+    flex-direction: column;
+    width: 13vw;
+    margin-right: 1rem;
+}
+
+.dashboardContainer {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    /* margin-left: 1rem; */
+    cursor: pointer;
+    padding: .5rem;
+}
+
+.dashboardContainer:hover {
+    background-color: #f5f0f0;
+    border-left: 10px solid #1CC29F;
+}
+
+/* .dashboardContainer:active {
+    border-left: 10px solid #1CC29F;
+    cursor: pointer;
+} */
+
+.img {
+    width: 1vw;
+    height: 3vh;
+
+}
+
+.dashboard {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-weight: 900;
+    color: #999;
+}
+
+.recentContainer {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    /* margin-left: 1rem; */
+    cursor: pointer;
+    padding: .5rem;
+}
+
+.recentContainer:hover {
+    border-left: 10px solid #1CC29F;
+    /* margin-left: 10px; */
+    /* cursor: pointer; */
+    background-color: #f5f0f0;
+}
+
+.flagIcon {
+
+}
+
+.recent {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-weight: 900;
+    color: #999;
+}
+
+.allExpensesContainer {
+    display:flex;
+    align-items: center;
+    gap: .4rem;
+    cursor: pointer;
+    padding: .5rem;
+    margin-top: .3rem;
+}
+
+.allExpensesContainer:hover {
+    background-color: #f5f0f0;
+    border-left: 10px solid #1CC29F;
+}
+
+.menuIcon {
+
+}
+
+.expenses {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-weight: 900;
+    color: #999;
+}
+
+.groupsContainer {
+    display: flex;
+    justify-content: space-between;
+    /* width: 10vw; */
+    background-color: #f6f6f6;
+    color: #ccc;
+    padding: .2rem;
+    /* margin-top: 1rem; */
+}
+
+.groups {
+    font-size: .7rem;
+    text-transform: uppercase;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.add {
+    font-size: .7rem;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.add:hover {
+    color: #1CC29F;
+    cursor: pointer;
+}
